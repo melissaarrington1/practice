@@ -30,6 +30,9 @@ body {
   color: white;
 }
 
+.store-header a {
+  color: white;
+}
 .store-main-header {
   /* color: rgb(69, 68, 68); */
   text-align: center;
@@ -122,4 +125,20 @@ body {
 .product-img {
   height: 300px;
   width: 300px;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: deepskyblue;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  font-family: "Varela", sans-serif;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: dodgerblue;
 }
