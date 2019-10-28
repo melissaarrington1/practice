@@ -19,15 +19,46 @@ body {
   margin-top: 1rem;
   margin-right: 1rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   background-color: aquamarine;
 }
 
+.store-header {
+  background: url("./img/fotografierende-TdAfVvGXelo-unsplash.jpg");
+  background-size: cover;
+  height: 20vh;
+  color: white;
+}
+
+.store-main-header {
+  /* color: rgb(69, 68, 68); */
+  text-align: center;
+}
+
+.heading {
+  letter-spacing: 1rem;
+  margin: 0;
+  margin-top: 11.5rem;
+  font-size: 7rem;
+  text-align: center;
+  color: rgb(69, 68, 68);
+}
+
+.sub-heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(69, 68, 68);
+}
+
+.logo {
+  margin-right: 10px;
+}
 .navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #777;
+  color: rgb(69, 68, 68);
 }
 
 .nav-links {
@@ -37,7 +68,7 @@ body {
 
 .nav-links a {
   padding: 1.8rem;
-  color: #777;
+  color: rgb(69, 68, 68);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -55,17 +86,30 @@ body {
 }
 
 .main-content-header {
-  font-size: 3rem;
+  margin: 0;
+  font-size: 2rem;
   text-align: center;
+  color: rgb(69, 68, 68);
 }
 .main-articles {
-  background-color: rgb(230, 243, 238);
+  background-color: rgb(237, 246, 243);
   height: 100vh;
 }
 .card-container {
   display: flex;
 }
+
+/* CONTENT CARD */
+.card-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .content-card {
+  height: 25rem;
+  width: 15rem;
+  display: inline-block;
   border: 1px solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -73,4 +117,9 @@ body {
 
 .card-details {
   padding: 2px 16px;
+}
+
+.product-img {
+  height: 300px;
+  width: 300px;
 }
