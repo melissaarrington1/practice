@@ -168,3 +168,38 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+table,
+td {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  height: 90px;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  background-color: #eb5757;
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+}
+
+.btn-danger:hover {
+  background-color: #993c3c;
+}
+
+.cart-quantity {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  border: 2px solid deepskyblue;
+  background-color: #eee;
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 25px;
+}
