@@ -142,3 +142,29 @@ body {
 .btn:hover {
   background-color: dodgerblue;
 }
+
+.store-item {
+  margin: 20px;
+}
+
+/* store-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+} */
+
+.store-item-details {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.store-item-price {
+  flex-grow: 1;
+}
+
+.all-store-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
