@@ -71,39 +71,38 @@
 
 
             <table>
-                <thead>
-
-                </thead>
-                <tbody>
+                <tbody class='all-cart-items'>
                     <tr>
                         <td>Item</td>
                         <td>Price</td>
                         <td>Quantity</td>
                     </tr>
-                    <tr>
+                    <tr class='cart-item'>
                         <td>
                             <img class='cart-img' src="./img/vadim-l-_mgfuATaQnk-unsplash.jpg" alt="">
                             <span>Plant 1</span>
                         </td>
-                        <td>$11.99</td>
+                        <td class='cart-item-price'>$11.99</td>
                         <td>
                             <input class='cart-quantity' type="number" value='7'>
                             <button class='btn btn-danger'>Remove</button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class='cart-item'>
                         <td><img class='cart-img' src="./img/fotografierende-TdAfVvGXelo-unsplash.jpg" alt="">
                             <span>Plant 1</span>
                         </td>
-                        <td>$11.99</td>
+                        <td class='cart-item-price'>$3.99</td>
                         <td>
                             <input class='cart-quantity' type="number" value="2">
                             <button class='btn btn-danger'>Remove</button>
                         </td>
                     </tr>
-                </tbody>
-            </table>
 
+                </tbody>
+
+            </table>
+            <tr class='cart-total'>Total: 3.00</tr>
         </section>
     </main>
     <script src="./store.js"></script>
