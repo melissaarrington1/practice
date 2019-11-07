@@ -23,7 +23,8 @@ function updateCartTotal() {
     let price = parseFloat(priceElement.innerHTML.replace("$", ""));
     let quantity = quantityElement.value;
     console.log(price * quantity);
+
     total = total + price * quantity;
   }
-  document.getElementsByClassName("cart-total")[0].innerHTML = total;
+  document.getElementByClassName("cart-total")[0].innerHTML = total;
 }
